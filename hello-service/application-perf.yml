@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: hello
+hello-service:
+  greeting: "hola"
+  default-value: "mondo"
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
+    

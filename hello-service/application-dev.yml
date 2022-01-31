@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: hello
+hello-service:
+  greeting: "hello"
+  default-value: "world - dev"
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
+    
